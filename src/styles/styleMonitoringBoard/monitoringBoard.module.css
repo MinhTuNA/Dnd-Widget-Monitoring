@@ -1,0 +1,20 @@
+  
+.modalCustom {
+    width: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .modalCustom {
+      width: 90vw ;
+    }
+  }
+
+.modalMember{
+  width: 70vw;
+  }
+  
+  @media (max-width: 768px) {
+    .modalMember {
+      width: 90vw ;
+    }
+  }

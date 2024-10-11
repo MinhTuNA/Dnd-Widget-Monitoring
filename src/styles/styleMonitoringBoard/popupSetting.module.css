@@ -1,0 +1,69 @@
+.contentSetting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContent{
+    font-size: 1.2em;
+    background-color:  white;
+}
+.inputTargetContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.inputTarget{
+    font-size: 1em;
+    width: 20vw;
+    height: 43px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+@media (max-width: 768px) {
+    .inputTarget {
+      width: 70vw;
+    }
+    .inputCameraId {
+        width: 70vw;
+      }
+  }
+
+.inputCameraId{
+    min-width: 130px;
+    font-size: 1em;
+    width: 20vw;
+    height: 43px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.btnSettingTargetContainer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.btnReset{
+    width: 150px;
+    height: 43px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: #1677ff;
+    color: white;
+    font-size: 15px;
+}
+
+
+.btnReset:hover  {
+    border: 2px solid #000;
+}
+
+.authToken{
+    width: 150px;
+    height: 43px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}

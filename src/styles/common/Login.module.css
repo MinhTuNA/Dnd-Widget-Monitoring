@@ -1,0 +1,104 @@
+/* src/App.css */
+.App {
+    text-align: center;
+    font-family: 'Public Sans', sans-serif;
+    
+  }
+  
+  .logo {
+    margin-top: 140px;
+    height: auto;
+    width: 250px;
+  }
+  
+  .deltaxiot {
+    font-size: 1.7em;
+    margin-bottom: 40px;
+  }
+  
+  .input-login {
+    height: 40px;
+    border: none;
+    outline: none;
+    flex: 1;
+    height: 30px;
+    font-size: 1.2em;
+  
+  }
+  
+  .input-icon {
+    color: #888;
+    font-size: 20px;
+    padding: 0 10px;
+  }
+  
+  
+  
+  .form-login {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    border: 2px solid #000000;
+    border-radius: 11px;
+    position: relative;
+    overflow: hidden;
+    padding: 10px 10px;
+  }
+  
+  .btn-login {
+    width: 100%;
+    height: 45px;
+    background-color: #0097b2;
+    font-family: 'Public Sans', sans-serif;
+    border: 0px;
+    border-radius: 11px;
+    color: white;
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+  
+  .btn-login:hover {
+    background-color: #41b8d5;
+  }
+  
+  .clear-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 3px;
+  }
+  
+  .password-toggle-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .clear-icon:hover {
+    color: rgb(128, 128, 128);
+    /* Màu khi hover */
+    transform: scale(1.2);
+    /* Phóng to icon khi hover */
+  }
+  
+  .password-toggle-icon:hover {
+    color: rgb(128, 128, 128);
+    /* Màu khi hover */
+    transform: scale(1.2);
+    /* Phóng to icon khi hover */
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }

@@ -1,0 +1,29 @@
+.mainContentCreate{
+    width: auto;
+    min-width: 200px;
+    height: 10vw;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.headingType{
+    width: 100px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.inputType{
+    width: 20vw;
+    border-radius: 5px;
+    height: 35px;
+    font-size: 1.1em;
+    border: 1px solid #000;
+}
+
+@media (max-width: 768px) {
+    .inputType {
+      width: 70vw;
+    }
+  }

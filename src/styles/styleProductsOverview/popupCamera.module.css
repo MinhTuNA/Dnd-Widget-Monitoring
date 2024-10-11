@@ -1,0 +1,59 @@
+.cameraContainer {
+  
+  background-color: #ffffff;
+  overflow: auto;
+  position: relative;
+}
+
+.exitCameraIcon {
+  font-size: 20px;
+  color: #000000;
+  cursor: pointer;
+  padding: 1px;
+
+}
+
+.zoomCameraContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.zoomCameraIcon {
+  font-size: 20px;
+  padding: 1px;
+
+  color: #000000;
+  cursor: pointer;
+ 
+
+}
+
+.exitCameraIcon:hover {
+  color: red;
+}
+
+.exiCameraContainer {
+  display: flex;
+  align-items: center;
+}
+
+.content-popup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+
+.videoContainer {
+  display: flex;
+  border-radius: 1px;
+
+  height: auto;
+  width: auto;
+  padding: 20px;
+}
+
+.video-feed.fullscreen {
+  width: 100%;
+  height: 100%;
+}

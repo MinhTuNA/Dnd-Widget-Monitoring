@@ -1,0 +1,137 @@
+.chartInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.strongStyle {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70px;
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    
+}
+
+.strongStyleActual {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70px;
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    margin-bottom: -1px;
+}
+
+
+
+.Value {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70px;
+    padding: 10px;
+    border: 1px solid #000000;
+    justify-content: center;
+    /* Căn giữa nội dung nếu cần */
+    color: #001D61;
+    font-weight: bold;
+    border-top: none;  
+}
+
+
+.strongStyleDiff {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50px;
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    margin-bottom: -1px;
+    border-bottom: none;
+}
+
+.diffPositive {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50px;
+    /* Đặt chiều rộng tự động để khớp với .strong-style */
+    padding: 10px;
+    border: 1px solid #000000;
+    justify-content: center;
+    color: green;
+    font-weight: bold;
+    /* Màu xanh cho giá trị lớn hơn 0 */
+}
+
+.diffNegative {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50px;
+    /* Đặt chiều rộng tự động để khớp với .strong-style */
+    padding: 10px;
+    border: 1px solid #000000;
+    justify-content: center;
+    color: red;
+    font-weight: bold;
+    /* Màu đỏ cho giá trị bé hơn 0 */
+}
+
+.chartHeading{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.chartContent{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.expand-icon{
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-right: 1px;
+}
+
+.setting-id-icon{
+    width: 19px;
+    height: auto;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    
+}
+
+
+.expand-icon:hover{
+    border: 2px solid #000;
+}
+
+.setting-id-icon:hover{
+    
+    color: #0097b2;
+}
+
+

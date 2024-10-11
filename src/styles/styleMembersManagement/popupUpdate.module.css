@@ -1,0 +1,28 @@
+.tdStyle{
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.inputMember{
+    font-size: 1em;
+    width: 20vw;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+@media (max-width: 768px) {
+    .inputMember {
+      width: 50vw;
+    }
+  }
+
+  
+.modalCustom {
+    width: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .modalCustom {
+      width: 90vw ;
+    }
+  }

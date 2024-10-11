@@ -1,0 +1,44 @@
+.contentHistory {
+    background-color: #ffffff;
+    overflow: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerHistory{
+    height: auto;
+    width: 100%;
+    
+}
+
+.headingPopup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.zoomSelect{
+    display: flex;
+    font-size: 15px;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+.classSelect{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.classSelect:hover {
+    background-color: #e4e4e4;
+}
+.colChartContainer{
+    width: 100%;
+    height: auto;
+}
+.timeContain {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+}

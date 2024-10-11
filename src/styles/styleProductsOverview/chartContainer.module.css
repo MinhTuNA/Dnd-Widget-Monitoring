@@ -1,0 +1,40 @@
+.chartContainer {
+    margin-top: 15px;
+    border: 2px solid #000000;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    max-width: 300px;
+    height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+    .chartContainer {
+        width: 300px;
+        height: 445px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .chartContainer {
+        width: 300px;
+        height: 445px;
+    }
+}
+
+.headingChart{
+    display: flex;
+    align-items: center;
+}
+
+.actionCamera{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.expandIcon{
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
